@@ -126,3 +126,19 @@ body{
     text-decoration-line: underline;
     
 }
+
+
+@media screen and (max-width:600px){
+    .collapse:not(.show){
+        display: inline-block;
+    }
+
+.col-sm-6{
+    display: block!important;
+    width: 100%;
+}
+.col-sm-6>.card{
+    width: 100%!important;
+}
+
+}
